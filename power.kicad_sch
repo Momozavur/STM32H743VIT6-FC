@@ -3304,7 +3304,7 @@
 			)
 		)
 	)
-	(global_label "5V_BEC"
+	(global_label "9V_BEC"
 		(shape input)
 		(at 260.35 119.38 0)
 		(fields_autoplaced yes)
@@ -4566,7 +4566,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "10u"
 			(at 226.06 41.91 90)
 			(effects
 				(font
@@ -7224,7 +7224,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "15u"
 			(at 226.06 116.84 90)
 			(effects
 				(font
