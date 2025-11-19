@@ -7744,7 +7744,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 107.95) (xy 228.6 111.76)
+			(xy 227.33 93.98) (xy 227.33 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7884,7 +7884,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 111.76) (xy 228.6 111.76)
+			(xy 232.41 111.76) (xy 227.33 111.76)
 		)
 		(stroke
 			(width 0)
@@ -15364,7 +15364,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 228.6 107.95 0)
+		(at 227.33 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15372,7 +15372,7 @@
 		(dnp no)
 		(uuid "f6f2cc76-f16c-491d-9a05-691ae76312df")
 		(property "Reference" "#PWR037"
-			(at 228.6 111.76 0)
+			(at 227.33 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15381,7 +15381,7 @@
 			)
 		)
 		(property "Value" "5V_USB"
-			(at 228.6 104.14 0)
+			(at 227.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15389,7 +15389,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 107.95 0)
+			(at 227.33 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15398,7 +15398,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 107.95 0)
+			(at 227.33 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15407,7 +15407,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 228.6 107.95 0)
+			(at 227.33 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
