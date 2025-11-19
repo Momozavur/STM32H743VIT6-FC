@@ -981,6 +981,180 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -6519,6 +6693,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 49.53) (xy 99.06 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c9712a-ef98-4f42-84f2-68add15b1fc8")
+	)
+	(wire
+		(pts
 			(xy 224.79 90.17) (xy 224.79 92.71)
 		)
 		(stroke
@@ -6709,6 +6893,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 45.72) (xy 114.3 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bdb3857-f3f2-46a9-87d4-aa5ca306306c")
+	)
+	(wire
+		(pts
 			(xy 326.898 71.12) (xy 326.898 83.82)
 		)
 		(stroke
@@ -6809,6 +7003,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 35.56) (xy 114.3 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf78d2db-2d7b-4955-9c78-8ed9414e7a31")
+	)
+	(wire
+		(pts
 			(xy 191.77 86.36) (xy 196.85 86.36)
 		)
 		(stroke
@@ -6889,6 +7093,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 35.56) (xy 102.87 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d08f88a1-9850-4e4f-9874-329a939f18b6")
+	)
+	(wire
+		(pts
 			(xy 326.898 83.82) (xy 326.898 85.598)
 		)
 		(stroke
@@ -6966,6 +7180,16 @@
 			(type default)
 		)
 		(uuid "e5b6bbf2-4d42-4a12-9756-37e0ce776f63")
+	)
+	(wire
+		(pts
+			(xy 114.3 35.56) (xy 114.3 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c8dc94-34ae-4089-a5f7-7e805b9620f3")
 	)
 	(wire
 		(pts
@@ -8820,6 +9044,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 114.3 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6824b007-8ae0-4f0a-ad08-448537742040")
+		(property "Reference" "3.3_R1"
+			(at 116.84 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k5"
+			(at 116.84 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 112.522 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.3 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ef044bee-36f0-4f1e-b136-5eed1dd6aa89")
+		)
+		(pin "1"
+			(uuid "a403697d-1f23-43bd-b3fc-9cc9e5dbdd5c")
+		)
+		(instances
+			(project "STM32H743VIT6 FC"
+				(path "/c74cb3f0-4ada-468c-ba5c-2dfd9a4e418b"
+					(reference "3.3_R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 234.95 160.02 0)
 		(unit 1)
@@ -9566,6 +9860,73 @@
 			(project "STM32H743VIT6 FC"
 				(path "/c74cb3f0-4ada-468c-ba5c-2dfd9a4e418b"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 106.68 35.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2268a44-4aa4-4db3-991f-13d2c988e616")
+		(property "Reference" "D1"
+			(at 107.95 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED"
+			(at 107.95 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 106.68 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 106.68 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f1ca8fe-0b1b-4862-a0c4-23e1c2a2d290")
+		)
+		(pin "2"
+			(uuid "478fc350-84fc-4dbf-8ea0-1697b3eea6b1")
+		)
+		(instances
+			(project "STM32H743VIT6 FC"
+				(path "/c74cb3f0-4ada-468c-ba5c-2dfd9a4e418b"
+					(reference "D1")
 					(unit 1)
 				)
 			)
