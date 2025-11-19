@@ -15214,7 +15214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LIPO"
+		(property "Value" "BAT"
 			(at 468.122 310.642 0)
 			(effects
 				(font
@@ -15748,7 +15748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LIPO"
+		(property "Value" "BAT"
 			(at 468.122 385.572 0)
 			(effects
 				(font
