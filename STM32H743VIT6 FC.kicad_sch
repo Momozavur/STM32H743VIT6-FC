@@ -18629,7 +18629,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7af6bad4-cd1e-41e2-b640-ffe824f1ae85")
-		(property "Reference" "3v3_C3"
+		(property "Reference" "3v3_C1"
 			(at 546.862 90.932 0)
 			(effects
 				(font
@@ -18791,7 +18791,7 @@
 		(instances
 			(project "STM32H743VIT6 FC"
 				(path "/c74cb3f0-4ada-468c-ba5c-2dfd9a4e418b"
-					(reference "3v3_C3")
+					(reference "3v3_C1")
 					(unit 1)
 				)
 			)
@@ -20482,7 +20482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9bd43f92-3f30-415b-af46-cc7aaade5252")
-		(property "Reference" "3V3_C4"
+		(property "Reference" "3V3_C2"
 			(at 586.74 90.17 0)
 			(effects
 				(font
@@ -20491,7 +20491,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7"
+		(property "Value" "1u"
 			(at 586.74 92.71 0)
 			(effects
 				(font
@@ -20644,7 +20644,7 @@
 		(instances
 			(project "STM32H743VIT6 FC"
 				(path "/c74cb3f0-4ada-468c-ba5c-2dfd9a4e418b"
-					(reference "3V3_C4")
+					(reference "3V3_C2")
 					(unit 1)
 				)
 			)
@@ -22549,7 +22549,7 @@
 				)
 			)
 		)
-		(property "Value" "W25N01GVZEIG_TR"
+		(property "Value" "W25N01GVZEIT"
 			(at 211.836 223.012 0)
 			(effects
 				(font
