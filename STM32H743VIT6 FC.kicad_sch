@@ -9719,7 +9719,7 @@
 	)
 	(rectangle
 		(start 193.04 138.684)
-		(end 232.41 162.56)
+		(end 229.87 162.56)
 		(stroke
 			(width 0)
 			(type default)
@@ -9998,6 +9998,12 @@
 		(uuid "1fa1235c-762a-4efd-b0f8-d68498a3d2d6")
 	)
 	(junction
+		(at 210.82 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fba8979-c38e-4099-bce1-775ed9f1f1ce")
+	)
+	(junction
 		(at 383.54 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10184,22 +10190,10 @@
 		(uuid "7e924658-5c32-4e31-af86-3d049e7a9c1b")
 	)
 	(junction
-		(at 217.17 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7fa60837-1b84-4d9b-9e04-c6cffc1fe120")
-	)
-	(junction
 		(at 284.48 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "816e0b8c-d436-42d8-8cb5-7b478fd7a898")
-	)
-	(junction
-		(at 210.82 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85e3531e-a066-4021-8492-2fa4d73790f2")
 	)
 	(junction
 		(at 556.26 264.16)
@@ -10302,12 +10296,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9c7a4d6-d5d3-442d-a1aa-0b3b667331d2")
-	)
-	(junction
-		(at 210.82 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf71bfe2-ddea-491d-94a0-15a223c38882")
 	)
 	(junction
 		(at 453.39 261.62)
@@ -11399,7 +11387,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 107.95) (xy 199.39 114.3)
+			(xy 198.12 107.95) (xy 198.12 114.3)
 		)
 		(stroke
 			(width 0)
@@ -11479,7 +11467,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 35.56) (xy 341.63 35.56)
+			(xy 335.28 35.56) (xy 345.44 35.56)
 		)
 		(stroke
 			(width 0)
@@ -12109,16 +12097,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 154.94) (xy 210.82 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61ef4809-a538-4f28-abc2-544c95f41e80")
-	)
-	(wire
-		(pts
 			(xy 87.63 208.28) (xy 85.09 208.28)
 		)
 		(stroke
@@ -12169,7 +12147,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 114.3) (xy 199.39 114.3)
+			(xy 200.66 114.3) (xy 198.12 114.3)
 		)
 		(stroke
 			(width 0)
@@ -12219,7 +12197,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 34.29) (xy 341.63 35.56)
+			(xy 345.44 34.29) (xy 345.44 35.56)
 		)
 		(stroke
 			(width 0)
@@ -12269,7 +12247,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 118.11) (xy 199.39 120.65)
+			(xy 198.12 118.11) (xy 198.12 120.65)
 		)
 		(stroke
 			(width 0)
@@ -12739,7 +12717,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 142.24) (xy 217.17 146.05)
+			(xy 210.82 142.24) (xy 210.82 146.05)
 		)
 		(stroke
 			(width 0)
@@ -12799,7 +12777,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 118.11) (xy 199.39 118.11)
+			(xy 203.2 118.11) (xy 198.12 118.11)
 		)
 		(stroke
 			(width 0)
@@ -12989,7 +12967,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 156.21) (xy 210.82 154.94)
+			(xy 210.82 153.67) (xy 210.82 156.21)
 		)
 		(stroke
 			(width 0)
@@ -13279,16 +13257,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 154.94) (xy 217.17 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c03f92cc-320e-4353-a047-409b13df493b")
-	)
-	(wire
-		(pts
 			(xy 34.29 73.66) (xy 38.1 73.66)
 		)
 		(stroke
@@ -13316,16 +13284,6 @@
 			(type default)
 		)
 		(uuid "c12098aa-a03c-453c-ae52-b4c36659bf3a")
-	)
-	(wire
-		(pts
-			(xy 210.82 142.24) (xy 217.17 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1597317-e51c-43f0-8637-48fb9a1ed779")
 	)
 	(wire
 		(pts
@@ -13549,16 +13507,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 142.24) (xy 210.82 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1d680db-5406-4070-8cd7-9dd7129685fb")
-	)
-	(wire
-		(pts
 			(xy 176.53 35.56) (xy 189.23 35.56)
 		)
 		(stroke
@@ -13666,6 +13614,16 @@
 			(type default)
 		)
 		(uuid "d9f65dae-f776-4b1e-98c5-028d716336ec")
+	)
+	(wire
+		(pts
+			(xy 210.82 142.24) (xy 218.44 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9fd473c-f948-442b-bebb-37fe4f5a9ed5")
 	)
 	(wire
 		(pts
@@ -13979,16 +13937,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 154.94) (xy 217.17 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb8603c0-031f-4d52-b03c-8cbe1479d43d")
-	)
-	(wire
-		(pts
 			(xy 90.17 71.12) (xy 90.17 73.66)
 		)
 		(stroke
@@ -13996,16 +13944,6 @@
 			(type default)
 		)
 		(uuid "ebaf225e-210a-4ed0-8342-08bba595ab2b")
-	)
-	(wire
-		(pts
-			(xy 217.17 142.24) (xy 222.25 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec575563-abf7-4313-aaf1-e655a06d9f07")
 	)
 	(wire
 		(pts
@@ -14621,7 +14559,7 @@
 	)
 	(global_label "VREF+"
 		(shape input)
-		(at 222.25 142.24 0)
+		(at 218.44 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14631,7 +14569,7 @@
 		)
 		(uuid "53af62cc-7581-4c69-8be1-243862c2a77f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.4038 142.24 0)
+			(at 227.5938 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15920,7 +15858,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "FCM 1608KF-102T02"
 			(at 331.4192 30.48 90)
 			(effects
 				(font
@@ -15937,7 +15875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6383/FCM%20Series.pdf"
 			(at 331.47 35.56 0)
 			(effects
 				(font
@@ -16354,7 +16292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lp5912.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lp5912.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1763936472699"
 			(at 482.6 104.14 0)
 			(effects
 				(font
@@ -16711,7 +16649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XDCR_DPS310"
+		(property "Footprint" ""
 			(at 289.56 346.71 0)
 			(effects
 				(font
@@ -16721,7 +16659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-dps368-datasheet-en.pdf"
 			(at 276.86 361.95 0)
 			(effects
 				(font
@@ -17678,7 +17616,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 199.39 120.65 0)
+		(at 198.12 120.65 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17687,7 +17625,7 @@
 		(dnp no)
 		(uuid "1bfbcc5e-7c3e-4d1c-811d-89927a61cf47")
 		(property "Reference" "#PWR025"
-			(at 199.39 127 0)
+			(at 198.12 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17696,7 +17634,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 124.714 0)
+			(at 198.12 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17704,7 +17642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 120.65 0)
+			(at 198.12 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17713,7 +17651,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 120.65 0)
+			(at 198.12 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17722,7 +17660,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 120.65 0)
+			(at 198.12 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18210,7 +18148,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x06_Pin"
+		(property "Value" "SM06B-SRSS-TB"
 			(at 80.645 205.74 0)
 			(effects
 				(font
@@ -18227,7 +18165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 80.01 213.36 0)
 			(effects
 				(font
@@ -18613,84 +18551,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 210.82 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a1bf0ee-09df-41db-bdbd-2b6807bcddf7")
-		(property "Reference" "MCU_C11"
-			(at 199.644 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 204.47 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 211.7852 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 210.82 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 210.82 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b4046df3-d64a-451d-9f6a-60a42e5f3145")
-		)
-		(pin "1"
-			(uuid "ba11d9d3-26c4-4c81-abd6-495d4c83c337")
-		)
-		(instances
-			(project "STM32H743VIT6 FC"
-				(path "/c74cb3f0-4ada-468c-ba5c-2dfd9a4e418b"
-					(reference "MCU_C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MCU_ST_STM32H7:STM32H743VITx")
 		(at 276.86 123.19 0)
 		(unit 1)
@@ -18728,7 +18588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h743vi.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h743bi.pdf"
 			(at 276.86 123.19 0)
 			(effects
 				(font
@@ -19238,7 +19098,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "SM04B-SRSS-TB"
 			(at 80.645 267.97 0)
 			(effects
 				(font
@@ -19255,7 +19115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 80.01 273.05 0)
 			(effects
 				(font
@@ -19361,7 +19221,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 217.17 149.86 0)
+		(at 210.82 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19369,7 +19229,7 @@
 		(dnp no)
 		(uuid "475c1f79-b953-44e0-be0b-fa64fd79a004")
 		(property "Reference" "MCU_C12"
-			(at 219.964 148.59 0)
+			(at 213.614 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19378,7 +19238,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 219.964 151.13 0)
+			(at 213.614 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19387,7 +19247,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 218.1352 153.67 0)
+			(at 211.7852 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19396,7 +19256,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 149.86 0)
+			(at 210.82 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19405,7 +19265,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 217.17 149.86 0)
+			(at 210.82 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19414,7 +19274,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 217.17 149.86 0)
+			(at 210.82 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19455,7 +19315,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "pads"
 			(at 81.915 330.2 0)
 			(effects
 				(font
@@ -19472,7 +19332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 81.28 335.28 0)
 			(effects
 				(font
@@ -19801,7 +19661,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 341.63 34.29 0)
+		(at 345.44 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19809,7 +19669,7 @@
 		(dnp no)
 		(uuid "5657401c-76d3-4b90-b381-254d7d05089f")
 		(property "Reference" "#PWR035"
-			(at 341.63 38.1 0)
+			(at 345.44 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19818,7 +19678,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 341.63 30.48 0)
+			(at 345.44 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19826,7 +19686,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 341.63 34.29 0)
+			(at 345.44 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19835,7 +19695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 34.29 0)
+			(at 345.44 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19844,7 +19704,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 341.63 34.29 0)
+			(at 345.44 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20245,7 +20105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/würth-elektronik/150060RS75000/4489901"
 			(at 97.79 73.66 0)
 			(effects
 				(font
@@ -20690,7 +20550,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x08_Pin"
+		(property "Value" "SM08B-SRSS-TB"
 			(at 80.645 149.86 0)
 			(effects
 				(font
@@ -20707,7 +20567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 80.01 160.02 0)
 			(effects
 				(font
@@ -20717,6 +20577,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 80.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 80.01 160.02 0)
 			(effects
 				(font
@@ -21462,7 +21331,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x06_Pin"
+		(property "Value" "SM06B-SRSS-TB"
 			(at 80.645 288.29 0)
 			(effects
 				(font
@@ -21479,7 +21348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 80.01 295.91 0)
 			(effects
 				(font
@@ -22211,7 +22080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/würth-elektronik/150060RS75000/4489901"
 			(at 69.85 73.66 0)
 			(effects
 				(font
@@ -22927,7 +22796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/würth-elektronik/150060RS75000/4489901"
 			(at 124.46 73.66 0)
 			(effects
 				(font
@@ -23224,7 +23093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/würth-elektronik/150060RS75000/4489901"
 			(at 151.13 73.66 0)
 			(effects
 				(font
@@ -23610,7 +23479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps54302.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps54302.pdf"
 			(at 487.68 243.84 0)
 			(effects
 				(font
@@ -24818,7 +24687,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "SM04B-SRSS-TB"
 			(at 80.645 231.14 0)
 			(effects
 				(font
@@ -24835,7 +24704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 80.01 236.22 0)
 			(effects
 				(font
@@ -24876,7 +24745,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 199.39 107.95 0)
+		(at 198.12 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24884,7 +24753,7 @@
 		(dnp no)
 		(uuid "af7a3a60-4c59-4200-b1ca-3e3002a2a8fc")
 		(property "Reference" "#PWR024"
-			(at 199.39 111.76 0)
+			(at 198.12 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24893,7 +24762,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 199.39 104.14 0)
+			(at 198.12 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24901,7 +24770,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 107.95 0)
+			(at 198.12 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24910,7 +24779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 107.95 0)
+			(at 198.12 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24919,7 +24788,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 199.39 107.95 0)
+			(at 198.12 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25245,7 +25114,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "pads"
 			(at 81.915 311.15 0)
 			(effects
 				(font
@@ -25262,7 +25131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 81.28 316.23 0)
 			(effects
 				(font
@@ -25766,7 +25635,7 @@
 				)
 			)
 		)
-		(property "Value" "DX07S016JA3R1500"
+		(property "Value" "USB4730-GF-A"
 			(at 404.114 84.328 0)
 			(effects
 				(font
@@ -25774,7 +25643,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_JAE_DX07S016JA1R1500_Custom"
+		(property "Footprint" ""
 			(at 394.97 104.14 0)
 			(effects
 				(font
@@ -25783,7 +25652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://gct.co/files/specs/usb4730-spec.pdf"
 			(at 394.97 104.14 0)
 			(effects
 				(font
@@ -25971,7 +25840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/diotec-semiconductor/BAT54C/13163831"
 			(at 460.248 73.66 0)
 			(effects
 				(font
@@ -26115,7 +25984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/würth-elektronik/150060RS75000/4489901"
 			(at 41.91 73.66 0)
 			(effects
 				(font
@@ -26193,7 +26062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps54302.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps54302.pdf"
 			(at 487.68 168.91 0)
 			(effects
 				(font
@@ -26620,7 +26489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.winbond.com/resource-files/W25N01GV%20Rev%20O%20092619.pdf"
 			(at 269.24 300.99 0)
 			(effects
 				(font
@@ -27338,7 +27207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://invensense.tdk.com/wp-content/uploads/2020/04/ds-000347_icm-42688-p-datasheet.pdf"
 			(at 267.97 240.03 0)
 			(effects
 				(font
@@ -28013,7 +27882,7 @@
 				)
 			)
 		)
-		(property "Value" "CSTCE8M00G52-R0"
+		(property "Value" "CSTNE8M00G520000R0"
 			(at 227.076 69.596 0)
 			(effects
 				(font
@@ -28021,7 +27890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSC_CSTCE8M00G52-R0"
+		(property "Footprint" ""
 			(at 227.33 80.01 0)
 			(effects
 				(font
@@ -28031,7 +27900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C907975.pdf"
 			(at 227.33 80.01 0)
 			(effects
 				(font
@@ -28276,7 +28145,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x06_Pin"
+		(property "Value" "SM06B-SRSS-TB"
 			(at 80.645 180.34 0)
 			(effects
 				(font
@@ -28293,7 +28162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 80.01 187.96 0)
 			(effects
 				(font
@@ -28356,7 +28225,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "SM04B-SRSS-TB"
 			(at 80.645 248.92 0)
 			(effects
 				(font
@@ -28373,7 +28242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 80.01 254 0)
 			(effects
 				(font
@@ -29102,7 +28971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/cd00050750.pdf"
 			(at 368.3 122.555 0)
 			(effects
 				(font
@@ -29166,7 +29035,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f97f4b55-bb68-448b-9d25-2e054f143f37")
 		(property "Reference" "SW2"
 			(at 205.74 106.68 0)
@@ -29176,7 +29044,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Y78B22310FP"
 			(at 205.74 109.22 0)
 			(effects
 				(font
@@ -29193,7 +29061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/c-k/KMR223G-LFG/550478?s=N4IgTCBcDaINIFkBKYwGYDiAZAYhkAugL5A"
 			(at 205.74 109.22 0)
 			(effects
 				(font
