@@ -8987,12 +8987,6 @@
 		(uuid "816e0b8c-d436-42d8-8cb5-7b478fd7a898")
 	)
 	(junction
-		(at 101.6 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81b8d230-1725-4df6-b1f0-9d631bd60b5f")
-	)
-	(junction
 		(at 36.83 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9045,12 +9039,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4b68c32-8ca5-4d26-9181-58c1a72dee6a")
-	)
-	(junction
-		(at 88.9 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a695020f-8edb-42f5-b1c6-226e7c415c3f")
 	)
 	(junction
 		(at 363.22 213.614)
@@ -9782,7 +9770,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 54.61) (xy 118.11 54.61)
+			(xy 88.9 54.61) (xy 118.11 54.61)
 		)
 		(stroke
 			(width 0)
@@ -12082,16 +12070,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 54.61) (xy 101.6 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6a990a2-7273-49d5-b65b-d4e911423885")
-	)
-	(wire
-		(pts
 			(xy 69.85 246.38) (xy 73.66 246.38)
 		)
 		(stroke
@@ -12299,16 +12277,6 @@
 			(type default)
 		)
 		(uuid "faba3ad2-2493-4776-958b-814b804346bb")
-	)
-	(wire
-		(pts
-			(xy 88.9 62.23) (xy 101.6 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fca79d8e-c967-4e4a-82c4-a824c3b7f8b0")
 	)
 	(wire
 		(pts
@@ -12922,6 +12890,28 @@
 			)
 		)
 	)
+	(global_label "USB_D-"
+		(shape input)
+		(at 148.59 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f8a7000-1e0c-409b-881f-d8872e01a2e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 159.1952 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GYRO_MOSI"
 		(shape input)
 		(at 148.59 96.52 0)
@@ -13097,6 +13087,28 @@
 			)
 		)
 	)
+	(global_label "LED1"
+		(shape input)
+		(at 30.48 243.84 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8523eac-5753-4667-a825-7bb8a6988fd9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.48 236.1982 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GYRO_MOSI"
 		(shape input)
 		(at 298.45 135.89 180)
@@ -13159,6 +13171,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_D+"
+		(shape input)
+		(at 148.59 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e487f95f-2df4-488d-bb8c-89d2d52a9f82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 159.1952 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -13838,7 +13872,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3k6"
+		(property "Value" "330"
 			(at 130.81 253.9999 0)
 			(effects
 				(font
@@ -15868,7 +15902,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7"
+		(property "Value" "1u"
 			(at 30.48 157.48 0)
 			(effects
 				(font
@@ -16518,84 +16552,6 @@
 			(project "STM32H743VIT6 FC"
 				(path "/c74cb3f0-4ada-468c-ba5c-2dfd9a4e418b"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 101.6 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "47367c55-da54-4ad8-80f3-8c0f03404b77")
-		(property "Reference" "MCU_C7"
-			(at 103.886 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 104.14 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 102.5652 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 101.6 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 101.6 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d841d147-24f8-4307-ab86-e6cf6d2f4e19")
-		)
-		(pin "1"
-			(uuid "d5f535d0-247e-4a7a-854f-97be38b58896")
-		)
-		(instances
-			(project "STM32H743VIT6 FC"
-				(path "/c74cb3f0-4ada-468c-ba5c-2dfd9a4e418b"
-					(reference "MCU_C7")
 					(unit 1)
 				)
 			)
@@ -17862,7 +17818,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k5"
+		(property "Value" "150"
 			(at 48.26 253.9999 0)
 			(effects
 				(font
@@ -18992,7 +18948,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8k2"
+		(property "Value" "750"
 			(at 157.48 253.9999 0)
 			(effects
 				(font
@@ -19565,7 +19521,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k5"
+		(property "Value" "150"
 			(at 104.14 253.9999 0)
 			(effects
 				(font
@@ -21302,7 +21258,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3k6"
+		(property "Value" "330"
 			(at 76.2 253.9999 0)
 			(effects
 				(font
@@ -22909,7 +22865,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7"
+		(property "Value" "1u"
 			(at 168.91 59.6899 0)
 			(effects
 				(font
