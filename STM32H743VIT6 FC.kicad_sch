@@ -28908,7 +28908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811071024_Infineon-Technologies-DPS310_C130156.pdf"
 			(at 341.63 368.3 0)
 			(effects
 				(font
