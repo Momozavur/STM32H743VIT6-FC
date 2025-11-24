@@ -6332,6 +6332,17 @@
 			(uuid "82113802-98a4-45f9-aaf0-c1eeff6d3cbc")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/lib/USB4730-GF-A_REVA.step"
+			(offset
+				(xyz 0 -3.1 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "All:Pads_1x3"
 		(layer "F.Cu")
@@ -7197,6 +7208,17 @@
 			(uuid "d76fff9b-b41e-4a60-bac6-59ce614f111a")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/lib/CSTNE8M00G520000R0.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -20184,6 +20206,17 @@
 			(uuid "65415f9d-b764-4b6b-b1c0-92ebd463bd8e")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/lib/W25N01GVZEIG.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "B.Cu")
