@@ -509,7 +509,7 @@
         "name": "3.3",
         "pcb_color": "rgb(255, 0, 0)",
         "priority": 1,
-        "schematic_color": "rgb(255, 0, 0)",
+        "schematic_color": "rgb(194, 0, 0)",
         "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3
@@ -530,8 +530,82 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "GND": [
+        "3.3"
+      ],
+      "Net-(3V3_D1-K)": [
+        "3.3"
+      ],
+      "Net-(5V_D1-K)": [
+        "BAT"
+      ],
+      "Net-(9V_D1-K)": [
+        "BAT"
+      ],
+      "Net-(MCU_C13-Pad1)": [
+        "3.3"
+      ],
+      "Net-(MCU_C14-Pad1)": [
+        "3.3"
+      ],
+      "Net-(U1-BOOT)": [
+        "BAT"
+      ],
+      "Net-(U1-EN)": [
+        "BAT"
+      ],
+      "Net-(U1-FB)": [
+        "BAT"
+      ],
+      "Net-(U1-SW)": [
+        "BAT"
+      ],
+      "Net-(U3-BOOT)": [
+        "BAT"
+      ],
+      "Net-(U3-EN)": [
+        "BAT"
+      ],
+      "Net-(U3-FB)": [
+        "BAT"
+      ],
+      "Net-(U3-SW)": [
+        "BAT"
+      ],
+      "Net-(USB_D1-K)": [
+        "BAT"
+      ],
+      "VREF+": [
+        "3.3"
+      ]
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "BAT",
+        "pattern": "5*"
+      },
+      {
+        "netclass": "3.3",
+        "pattern": "3*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "*"
+      },
+      {
+        "netclass": "BAT",
+        "pattern": "BAT"
+      },
+      {
+        "netclass": "BAT",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "BAT",
+        "pattern": "9*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
