@@ -10990,12 +10990,6 @@
 		(uuid "4a5c85b1-d994-48e5-9105-d268bba8467c")
 	)
 	(junction
-		(at 375.92 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51106e44-d8b2-4ea1-a9e4-bf8f8b167661")
-	)
-	(junction
 		(at 396.24 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11096,6 +11090,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e924658-5c32-4e31-af86-3d049e7a9c1b")
+	)
+	(junction
+		(at 406.4 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f794675-4749-4bd1-82dd-16c206e05950")
 	)
 	(junction
 		(at 284.48 35.56)
@@ -11791,7 +11791,7 @@
 	)
 	(wire
 		(pts
-			(xy 427.99 100.33) (xy 427.99 102.87)
+			(xy 429.26 100.33) (xy 429.26 106.68)
 		)
 		(stroke
 			(width 0)
@@ -12021,7 +12021,7 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 100.33) (xy 427.99 100.33)
+			(xy 424.18 100.33) (xy 429.26 100.33)
 		)
 		(stroke
 			(width 0)
@@ -12751,7 +12751,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 74.93) (xy 375.92 78.74)
+			(xy 406.4 73.66) (xy 406.4 76.2)
 		)
 		(stroke
 			(width 0)
@@ -13011,7 +13011,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 87.63) (xy 388.62 87.63)
+			(xy 387.35 87.63) (xy 388.62 87.63)
 		)
 		(stroke
 			(width 0)
@@ -13051,7 +13051,7 @@
 	)
 	(wire
 		(pts
-			(xy 427.99 110.49) (xy 427.99 125.73)
+			(xy 429.26 114.3) (xy 429.26 125.73)
 		)
 		(stroke
 			(width 0)
@@ -13271,7 +13271,7 @@
 	)
 	(wire
 		(pts
-			(xy 427.99 125.73) (xy 424.18 125.73)
+			(xy 429.26 125.73) (xy 424.18 125.73)
 		)
 		(stroke
 			(width 0)
@@ -15011,6 +15011,16 @@
 	)
 	(wire
 		(pts
+			(xy 425.45 87.63) (xy 424.18 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db2d8cb3-f281-4c4b-9d00-f86e2b374d78")
+	)
+	(wire
+		(pts
 			(xy 90.17 165.1) (xy 77.47 165.1)
 		)
 		(stroke
@@ -15151,7 +15161,7 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 78.74) (xy 424.18 87.63)
+			(xy 425.45 76.2) (xy 425.45 87.63)
 		)
 		(stroke
 			(width 0)
@@ -15311,7 +15321,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 78.74) (xy 375.92 87.63)
+			(xy 387.35 76.2) (xy 387.35 87.63)
 		)
 		(stroke
 			(width 0)
@@ -15391,6 +15401,16 @@
 	)
 	(wire
 		(pts
+			(xy 406.4 76.2) (xy 425.45 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f53085e0-2f92-4a2f-a4d5-cd894adaf986")
+	)
+	(wire
+		(pts
 			(xy 381 106.68) (xy 381 92.71)
 		)
 		(stroke
@@ -15411,7 +15431,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 78.74) (xy 424.18 78.74)
+			(xy 387.35 76.2) (xy 406.4 76.2)
 		)
 		(stroke
 			(width 0)
@@ -33214,7 +33234,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 427.99 106.68 0)
+		(at 429.26 110.49 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33223,7 +33243,7 @@
 		(dnp no)
 		(uuid "f0e5c514-e46f-460b-ac81-8cf8cb698e2d")
 		(property "Reference" "USB_R2"
-			(at 430.53 103.378 90)
+			(at 431.8 107.188 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33232,7 +33252,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 432.562 105.156 90)
+			(at 433.832 108.966 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33241,7 +33261,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 429.768 106.68 90)
+			(at 431.038 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33250,7 +33270,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 427.99 106.68 0)
+			(at 429.26 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33259,7 +33279,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 427.99 106.68 0)
+			(at 429.26 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33268,7 +33288,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 427.99 106.68 0)
+			(at 429.26 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33423,7 +33443,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 375.92 74.93 0)
+		(at 406.4 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33431,7 +33451,7 @@
 		(dnp no)
 		(uuid "f6f2cc76-f16c-491d-9a05-691ae76312df")
 		(property "Reference" "#PWR037"
-			(at 375.92 78.74 0)
+			(at 406.4 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33440,7 +33460,7 @@
 			)
 		)
 		(property "Value" "5V_USB"
-			(at 375.92 71.12 0)
+			(at 406.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33448,7 +33468,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 375.92 74.93 0)
+			(at 406.4 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33457,7 +33477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 375.92 74.93 0)
+			(at 406.4 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33466,7 +33486,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 375.92 74.93 0)
+			(at 406.4 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
