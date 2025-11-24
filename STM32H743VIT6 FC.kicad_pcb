@@ -5584,7 +5584,7 @@
 	(footprint "All:GCT_USB4730-GF-A_REVA"
 		(layer "F.Cu")
 		(uuid "6b095a55-415b-4780-a55b-25723751952e")
-		(at 180.9 115.25 90)
+		(at 182.3089 114.9344 90)
 		(property "Reference" "J1"
 			(at 0 0 90)
 			(layer "F.SilkS")
