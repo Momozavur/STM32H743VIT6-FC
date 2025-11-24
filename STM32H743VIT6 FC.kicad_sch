@@ -29672,7 +29672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_Wuerth_MAPI-5030"
 			(at 524.51 177.8 0)
 			(effects
 				(font
