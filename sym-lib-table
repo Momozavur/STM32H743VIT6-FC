@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DPS310")(type "KiCad")(uri "${KIPRJMOD}/lib/DPS310.kicad_sym")(options "")(descr ""))
+  (lib (name "OSC")(type "KiCad")(uri "${KIPRJMOD}/lib/CSTNE8M00G520000R0.kicad_sym")(options "")(descr ""))
+  (lib (name "USB")(type "KiCad")(uri "${KIPRJMOD}/lib/USB4730-GF-A_REVA.kicad_sym")(options "")(descr ""))
+  (lib (name "SM04B")(type "KiCad")(uri "${KIPRJMOD}/lib/SM04B_SRSS_TB.kicad_sym")(options "")(descr ""))
+)

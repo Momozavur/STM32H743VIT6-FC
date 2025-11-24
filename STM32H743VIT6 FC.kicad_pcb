@@ -176,6 +176,117 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "All:Pads_1x3"
+		(layer "F.Cu")
+		(uuid "391f1f86-2f0b-4784-8642-3586af15d7c1")
+		(at 173 103.25)
+		(property "Reference" "REF**"
+			(at -0.3 1.1 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d5721b54-9074-4ddd-bdf2-c6bc1daf7ce7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Pads_1x3"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2934fad-de8a-46b2-bd27-bb4257a2e16b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc3bf5d8-e0fd-435d-a7e1-e3dd0cb3a716")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2528f8b7-b15c-4ee6-8e5b-6d11cd659749")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_line
+			(start -1.25 -1.25)
+			(end -1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9b0eaf7a-a659-44c2-b253-595512446d7c")
+		)
+		(fp_line
+			(start 1.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c16cb34b-6ed7-4b4a-bf01-a800535233e6")
+		)
+		(fp_rect
+			(start -3.75 -1.25)
+			(end 3.75 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "7b36577e-6fee-48a2-be46-34d69c575dce")
+		)
+		(pad "1" smd roundrect
+			(at -2.5 0 180)
+			(size 1.6 1.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15625)
+			(uuid "61c7feac-15ff-4e6d-9a83-82d1f02517a8")
+		)
+		(pad "2" smd roundrect
+			(at 0 0 180)
+			(size 1.6 1.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15625)
+			(uuid "e52907c1-f228-44cd-8127-9d7d7aeaa6d4")
+		)
+		(pad "3" smd roundrect
+			(at 2.5 0 180)
+			(size 1.6 1.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15625)
+			(uuid "54eb3020-be73-4e77-af5e-288c7b087f6f")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "MountingHole:MountingHole_4.3mm_M4_ISO14580_Pad_TopBottom"
 		(layer "F.Cu")
 		(uuid "507c32a6-6783-4d28-8f4a-7d58e2c1e452")
