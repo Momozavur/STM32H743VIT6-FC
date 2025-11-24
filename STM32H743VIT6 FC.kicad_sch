@@ -3058,16 +3058,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Infineon Technologies"
+			(property "Description" "The DPS310 is a miniaturized Digital Barometric Air Pressure Sensor with a high accuracy and a low current consumption, capable of measuring both pressure and temperature."
 				(at 0 0 0)
 				(effects
 					(font
@@ -3077,7 +3068,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "The DPS310 is a miniaturized Digital Barometric Air Pressure Sensor with a high accuracy and a low current consumption, capable of measuring both pressure and temperature."
+			(property "MF" "Infineon Technologies"
 				(at 0 0 0)
 				(effects
 					(font
@@ -22292,14 +22283,13 @@
 				)
 			)
 		)
-		(property "Footprint" "CSTNE8M00G520000R0:OSC_CSTNE8M00G520000R0"
+		(property "Footprint" "All:OSC_CSTNE8M00G520000R0"
 			(at 227.33 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C907975.pdf"
@@ -28908,7 +28898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DPS310:XDCR_DPS310"
+		(property "Footprint" "All:XDCR_DPS310"
 			(at 341.63 368.3 0)
 			(effects
 				(font
@@ -30214,7 +30204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://gct.co/files/specs/usb4730-spec.pdf"
 			(at 394.97 104.14 0)
 			(effects
 				(font
@@ -31182,7 +31172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "W25N01GVZEIG_TR:SON127P800X600X80-9N"
+		(property "Footprint" "All:SON127P600X800X80-9N"
 			(at 334.01 313.69 0)
 			(effects
 				(font
@@ -31976,7 +31966,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ICM-42688-P:ICP-42688-P"
+		(property "Footprint" "All:PQFN50P300X250X97-14N"
 			(at 332.74 252.73 0)
 			(effects
 				(font
