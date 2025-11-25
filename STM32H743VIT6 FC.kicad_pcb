@@ -269,6 +269,8 @@
 	(net 126 "unconnected-(J1-DP1-PadA6)")
 	(net 127 "unconnected-(J1-DN1-PadA7)")
 	(net 128 "3.3VA")
+	(net 129 "unconnected-(U1-EN-Pad5)")
+	(net 130 "unconnected-(U3-EN-Pad5)")
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "043abcb1-bde1-4c7e-bce4-3784fc98ec28")
@@ -2511,7 +2513,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3360d56d-0bec-4968-9965-d5e193758e1f")
+			(uuid "ddbba166-319c-4655-9445-ea1586a503ae")
 			(effects
 				(font
 					(size 1 1)
@@ -2524,7 +2526,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bbae411c-0773-492f-8446-048838f38609")
+			(uuid "b26ecba8-9e2b-4b5a-87fc-6c93ed9a6141")
 			(effects
 				(font
 					(size 1 1)
@@ -2537,7 +2539,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d3fb3d59-3c8e-44f7-b04d-2867995bb3e9")
+			(uuid "8774c8ea-f924-4fc2-a47d-baebd324d092")
 			(effects
 				(font
 					(size 1 1)
@@ -2550,7 +2552,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3c55c587-d49a-46d6-a05f-df9a274dd1ed")
+			(uuid "aaed1295-fef3-469d-a869-6a8ef375ebdc")
 			(effects
 				(font
 					(size 1 1)
@@ -17670,7 +17672,6 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/027dd63c-1a30-4c2b-92eb-8a6be91b644f")
 		(sheetname "/")
 		(sheetfile "STM32H743VIT6 FC.kicad_sch")
 		(attr smd)
@@ -18213,7 +18214,6 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c008c07a-77f4-4c4e-816f-4352edddb040")
 		(sheetname "/")
 		(sheetfile "STM32H743VIT6 FC.kicad_sch")
 		(attr smd)
@@ -18894,9 +18894,9 @@
 			(size 1.325 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 20 "Net-(U3-EN)")
+			(net 130 "unconnected-(U3-EN-Pad5)")
 			(pinfunction "EN")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "8aa03517-fee6-42bb-a20e-f1d0d9387a3e")
 		)
 		(pad "6" smd roundrect
@@ -18993,7 +18993,6 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/71093b96-84ea-4df9-a669-21c25a384b70")
 		(sheetname "/")
 		(sheetfile "STM32H743VIT6 FC.kicad_sch")
 		(attr smd)
@@ -20110,9 +20109,9 @@
 			(size 1.325 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 14 "Net-(U1-EN)")
+			(net 129 "unconnected-(U1-EN-Pad5)")
 			(pinfunction "EN")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "985c7e53-0176-46d9-bfe7-c8e9cf569bc6")
 		)
 		(pad "6" smd roundrect
@@ -21517,7 +21516,6 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/939404ca-e287-4e6b-a2ea-8ed3a4d9db18")
 		(sheetname "/")
 		(sheetfile "STM32H743VIT6 FC.kicad_sch")
 		(attr smd)
