@@ -12250,7 +12250,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 238.76) (xy 127 238.76)
+			(xy 135.89 238.76) (xy 127 238.76)
 		)
 		(stroke
 			(width 0)
@@ -12270,7 +12270,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 214.63) (xy 140.97 214.63)
+			(xy 127 214.63) (xy 129.54 214.63)
 		)
 		(stroke
 			(width 0)
@@ -15796,6 +15796,28 @@
 			)
 		)
 	)
+	(global_label "BEEPER"
+		(shape input)
+		(at 129.54 214.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9852e5ff-808d-492c-8b2c-5ad3f83dc6eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.7822 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART3_TX"
 		(shape input)
 		(at 129.54 111.76 0)
@@ -15897,28 +15919,6 @@
 		(uuid "a4c826cb-e294-4fe3-8602-1010a7312804")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 136.3352 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BEEPER"
-		(shape input)
-		(at 129.54 238.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ab6676fc-4d89-4360-a34c-9114014d960f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7822 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17240,7 +17240,7 @@
 	)
 	(symbol
 		(lib_id "custom_Library:3V3_MCU")
-		(at 140.97 214.63 0)
+		(at 135.89 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17248,7 +17248,7 @@
 		(dnp no)
 		(uuid "01386c8d-6f18-4039-810c-bf2a343bbfa3")
 		(property "Reference" "#PWR01"
-			(at 140.97 218.44 0)
+			(at 135.89 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17257,7 +17257,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 139.446 211.074 0)
+			(at 134.366 235.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17266,7 +17266,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 214.63 0)
+			(at 135.89 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17275,7 +17275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 214.63 0)
+			(at 135.89 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17284,7 +17284,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3V3_MCU\""
-			(at 140.97 214.63 0)
+			(at 135.89 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
