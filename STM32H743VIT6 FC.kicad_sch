@@ -10521,6 +10521,10 @@
 		(uuid "7f03f388-339e-4112-bacd-73cb17b2b712")
 	)
 	(no_connect
+		(at 299.72 110.49)
+		(uuid "7f499b53-cec3-4357-8569-642195528ba4")
+	)
+	(no_connect
 		(at 254 161.29)
 		(uuid "8061887e-ba1b-4394-8388-c9f7644c33b6")
 	)
@@ -11927,16 +11931,6 @@
 			(type default)
 		)
 		(uuid "4567f2e8-7c84-4ba1-a844-a8dc349bc252")
-	)
-	(wire
-		(pts
-			(xy 300.99 110.49) (xy 299.72 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4575db07-2fbf-4836-9bc1-1a6c9f7680e2")
 	)
 	(wire
 		(pts
@@ -16535,28 +16529,6 @@
 		(uuid "ef621b1f-d18a-4086-953e-1238d8cad6dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.5361 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PINIO1"
-		(shape input)
-		(at 300.99 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f12f82b4-fcaa-4c49-801a-48340be013a8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 310.3253 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
