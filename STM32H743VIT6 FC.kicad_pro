@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 2.0,
-          "width": 2.0
+          "drill": 0.3,
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -230,7 +230,7 @@
         },
         {
           "diameter": 0.5,
-          "drill": 0.2
+          "drill": 0.3
         },
         {
           "diameter": 0.6,
@@ -523,7 +523,7 @@
         "schematic_color": "rgb(255, 153, 0)",
         "track_width": 0.5,
         "via_diameter": 0.5,
-        "via_drill": 0.2
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -612,7 +612,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
